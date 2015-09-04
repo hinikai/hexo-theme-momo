@@ -1,0 +1,29 @@
+# Header
+menu:
+  首页: /
+#  文章: /archives
+  关于我: /about
+  可视化相关Demo: /mapvisualization
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: left
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+# Miscellaneous
+google_analytics: 
+baidu_tongji: hinikai
+favicon: /favicon.ico
+twitter: 
+google_plus: 
+fb_admins:
+fb_app_id:

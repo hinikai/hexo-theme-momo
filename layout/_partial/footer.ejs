@@ -1,0 +1,12 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2012&thinsp;–&thinsp;<%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+      Powered by <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and host by <a href="https://github.com/hinikai">Github</a>
+    </div>
+  </div>
+</footer>
+<%- partial('baidu-tongji') %>
